@@ -1,8 +1,6 @@
 using Windows.Foundation;
 using Windows.Media.Control;
 
-namespace Testenk;
-
 public static class MediaHandler
 {
     public static void HandlePlaybackUpdate(

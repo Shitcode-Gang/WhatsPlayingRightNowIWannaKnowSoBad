@@ -1,8 +1,6 @@
 ﻿using Windows.Media.Control;
-using Testenk;
 
 var smtc = GlobalSystemMediaTransportControlsSessionManager.RequestAsync().GetResults();
-
 
 if (smtc == null)
     return;
